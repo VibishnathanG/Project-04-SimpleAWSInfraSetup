@@ -5,10 +5,15 @@ This is Project Mainly concentrating on creating Simple Infra with AWS services
 𝗛𝗮𝗽𝗽𝘆 𝘁𝗼 𝘀𝗵𝗮𝗿𝗲 𝗼𝗻𝗲 𝗼𝗳 𝗺𝘆 𝗽𝗿𝗼𝗷𝗲𝗰𝘁 𝗼𝗻 𝗰𝗹𝗼𝘂𝗱 𝘄𝗵𝗶𝗰𝗵 𝗺𝗮𝗶𝗻𝗹𝘆 𝗳𝗼𝗰𝘂𝘀 𝗼𝗻 𝗳𝗼𝗹𝗹𝗼𝘄𝗶𝗻𝗴 𝗔𝗪𝗦 𝘀𝗲𝗿𝘃𝗶𝗰𝗲𝘀. [ Project-04-AWSInfraSetup ]
 
 ➡ EC2 - Instance management and custom user data.
+
 ➡ Autoscaling groups - Launch Templates and Rules.
+
 ➡ IAM - Users, Groups, Policies.
+
 ➡ EFS - Network file storage and mounting to multiple instance.
+
 ➡ Load Balancer - Target groups based on ENV.
+
 ➡ Network - VPC, Subnets, IGW, SG's and other network components.
 
 𝗦𝗶𝗺𝗽𝗹𝗶𝗳𝗶𝗲𝗱 𝗥𝗲𝗾𝘂𝗶𝗿𝗲𝗺𝗲𝗻𝘁: Design and execute an simple AWS infrastructure project focused on Auto Scaling Groups, IAM user policies, and instance management. Develop three Auto Scaling Groups (DevASG, OpsASG, FinanceASG) with specific instance tags. Create IAM users with policy restrictions based on Auto Scaling Group environments and console access limitations. Log in as EC2User to terminate resources and update launch template user data for web server deployment. Verify instance changes across existing and new instances.
